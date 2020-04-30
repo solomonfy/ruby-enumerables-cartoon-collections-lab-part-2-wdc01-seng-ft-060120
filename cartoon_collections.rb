@@ -27,6 +27,6 @@ def find_valid_calls(planeteer_calls)
   #puts planeteer_calls.find { |call| call == valid_calls }
     
     planeteer_calls.find do |call|
-    valid_calls.include? "call"
+    valid_calls.include? call?
   end
 end
